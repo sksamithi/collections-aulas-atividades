@@ -12,9 +12,9 @@ public class EstoqueProdutos {
         this.estoqueProdutosMap = new HashMap<>();
     }
     
-    public void adicionarProduto (long cod, String nome, int quantidade, double preco){
-        estoqueProdutosMap.put(cod, new Produto(nome, preco, quantidade));
-    }
+    public void adicionarProduto(long cod, String nome, int quantidade, double preco) {
+        estoqueProdutosMap.put(cod, new Produto(nome, cod, preco, quantidade));
+      }
 
     public void exibirProdutos(){
         System.out.println(estoqueProdutosMap);
