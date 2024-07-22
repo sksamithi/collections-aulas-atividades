@@ -11,7 +11,7 @@ public class CadastroProdutos {
         this.produtoSet = new HashSet<>();
     }
     public void adicionarProduto(String nome, long codigo, double preco, int quantidade){
-        produtoSet.add(new Produto(nome, codigo, preco, quantidade));
+        produtoSet.add(new Produto(nome, codigo, quantidade, quantidade));
     }
 
     public Set<Produto> exibirProdutosPorNome(){

@@ -6,15 +6,15 @@ public class Produto implements Comparable<Produto>{
     
     private String nome;
     private long codigo;
-    
+    private double preco;
+    private int quantidade;
+
     public Produto(String nome, long codigo, double preco, int quantidade) {
         this.nome = nome;
         this.codigo = codigo;
         this.preco = preco;
         this.quantidade = quantidade;
     }
-    private double preco;
-    private int quantidade;
 
     @Override
     public int compareTo(Produto p) {
