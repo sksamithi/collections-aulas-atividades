@@ -1,4 +1,4 @@
-package OperacoesBasicas;
+package List.OperacoesBasicas;
 
 public class Tarefa {
     //Atributo:
@@ -22,3 +22,4 @@ public class Tarefa {
 
 
 }
+

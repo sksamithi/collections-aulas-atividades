@@ -1,7 +1,9 @@
-package OperacoesBasicas;
+package List.OperacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import Set.Item;
 
 public class CarrinhoDeCompras {
     private List<Item> itemList;
